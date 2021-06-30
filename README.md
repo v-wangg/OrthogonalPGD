@@ -2,20 +2,8 @@
 
 This repository contains the code used in the paper [include link]
 
-## Structure
-The main attack class can be found in `attack.py`. We then give a few examples of the case studies we talk about in the paper. 
+The main attack class can be found in `attack.py`. We then give a few examples of the case studies we talk about in the paper.
 
-### Trapdoor/Honeypots
-run
-```python
-python3 trapdoor.py
-```
-to attack the classifier and detector on cifar10. The script runs an Orthogonal Projected Gradient Descent attack for 100 steps at epsilon 8/255 and prints the results (accuracy and ROC curve).
+We include defense scripts for the trapdoor and DLA defenses because we re-implemented these in pytorch ourself, and so we need no author permission to distribute these files. We do not include pre-trained models because the original defense authors trained models for us---we will obtain their permission to release those pretrained models in a full code release. Similarly we will release other defense with author permission on code reuse.
 
-### Dense Layer Analysis
-run
-```python
-python3 dla.py
-```
-to attack the classifier and detector on cifar10. The script runs an Orthogonal Projected Gradient Descent attack for 100 steps at epsilon 8/255 and prints the results. The model and detector can be found in `defense.py`.
-
+The script "run_experiment.py" contains the necessary boilerplate to run an attack given pretrained model weights.
