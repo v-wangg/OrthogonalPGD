@@ -1,6 +1,6 @@
 # Evading Adversarial Example Detection Defenseswith Orthogonal Projected Gradient Descent
 
-This repository contains the code used in the paper [include link]
+This repository contains the code used in the [paper](https://arxiv.org/abs/2106.15023)
 
 The main attack class can be found in `attack.py`. We then give a few examples of the case studies we talk about in the paper.
 
