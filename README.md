@@ -1,4 +1,4 @@
-# Evading Adversarial Example Detection Defenseswith Orthogonal Projected Gradient Descent
+# Evading Adversarial Example Detection Defenses with Orthogonal Projected Gradient Descent
 
 This repository contains the code used in the [paper](https://arxiv.org/abs/2106.15023)
 
